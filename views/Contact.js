@@ -68,8 +68,8 @@ const Contact = {
             contactMethods: [
                 {
                     type: "Email",
-                    value: "your.email@example.com",
-                    url: "mailto:your.email@example.com",
+                    value: "rogelynpizon@gmail.com",
+                    url: "mailto:rogelynpizon@gmail.com",
                     icon: "fas fa-envelope"
                 },
                 {
@@ -81,7 +81,7 @@ const Contact = {
                 {
                     type: "GitHub",
                     value: "github.com/YOUR_USERNAME",
-                    url: "https://github.com/YOUR_USERNAME",
+                    url: "https://github.com/RoguePi",
                     icon: "fab fa-github"
                 },
                 {
