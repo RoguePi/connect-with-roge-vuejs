@@ -877,6 +877,29 @@ body::before {
     gap: 1rem;
 }
 
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.legal-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.legal-links a {
+    color: var(--gray);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.legal-links a:hover {
+    color: var(--primary);
+}
+
 .footer-content p {
     color: var(--gray);
 }
@@ -969,6 +992,14 @@ body::before {
     .footer-content {
         flex-direction: column;
         text-align: center;
+    }
+    
+    .footer-left {
+        text-align: center;
+    }
+    
+    .legal-links {
+        justify-content: center;
     }
 
     .job-header {

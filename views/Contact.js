@@ -68,20 +68,20 @@ const Contact = {
             contactMethods: [
                 {
                     type: "Email",
-                    value: "roge@example.com",
-                    url: "mailto:roge@example.com",
+                    value: "your.email@example.com",
+                    url: "mailto:your.email@example.com",
                     icon: "fas fa-envelope"
                 },
                 {
                     type: "LinkedIn",
-                    value: "linkedin.com/in/rogelyn-pizon",
-                    url: "https://linkedin.com/in/rogelyn-pizon",
+                    value: "linkedin.com/in/rogelyn-pizon-b31995112",
+                    url: "https://www.linkedin.com/in/rogelyn-pizon-b31995112/",
                     icon: "fab fa-linkedin"
                 },
                 {
                     type: "GitHub",
-                    value: "github.com/roge",
-                    url: "https://github.com/roge",
+                    value: "github.com/YOUR_USERNAME",
+                    url: "https://github.com/YOUR_USERNAME",
                     icon: "fab fa-github"
                 },
                 {
