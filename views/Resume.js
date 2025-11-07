@@ -65,34 +65,34 @@ const Resume = {
                     id: 1,
                     title: "Support Engineer",
                     company: "Tech Company",
-                    duration: "2023 - Present",
+                    duration: "2025 - Present",
                     responsibilities: [
                         "Provide technical support for complex software issues",
                         "Collaborate with engineering teams to resolve customer problems",
                         "Create and maintain technical documentation",
                         "Analyze customer feedback to improve product features"
                     ],
-                    technologies: ["JavaScript", "Python", "SQL", "REST APIs", "Docker"]
+                    technologies: ["JavaScript", "Zendesk", "Retool", "JIRA", "Customer Service", "Troubleshooting", "Communication", "Problem Solving"]
                 },
                 {
                     id: 2,
                     title: "Software Engineer",
                     company: "Previous Company",
-                    duration: "2020 - 2023",
+                    duration: "2022 - 2025",
                     responsibilities: [
                         "Developed full-stack web applications using modern frameworks",
                         "Implemented RESTful APIs and database solutions",
                         "Collaborated in agile development teams",
                         "Mentored junior developers and conducted code reviews"
                     ],
-                    technologies: ["Vue.js", "Node.js", "MongoDB", "AWS", "Git"]
+                    technologies: ["Vue.js", "SQL", "REST APIs", "Docker", "Node.js", "SQL", "AWS", "Git", "C#", "ASP.NET", "Azure", "Azure DevOps"]
                 }
             ],
             education: [
                 {
                     id: 1,
                     degree: "Bachelor of Science in Computer Science",
-                    school: "University Name",
+                    school: "University of San Jose-Recoletos",
                     year: "2020"
                 }
             ]
