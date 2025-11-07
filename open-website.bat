@@ -1,0 +1,3 @@
+@echo off
+echo Opening Connect with Roge website...
+start index.html

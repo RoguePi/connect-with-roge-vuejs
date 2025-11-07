@@ -1,0 +1,13 @@
+{
+  "name": "connect-with-roge-vuejs",
+  "version": "1.0.0",
+  "description": "A simple website to easily connect to Roge - Software Engineer turned Support Engineer",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8080",
+    "serve": "python -m http.server 8080"
+  },
+  "keywords": ["portfolio", "vue.js", "software-engineer", "support-engineer"],
+  "author": "Rogelyn Pizon",
+  "license": "MIT"
+}
