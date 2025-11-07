@@ -80,7 +80,7 @@ const Contact = {
                 },
                 {
                     type: "GitHub",
-                    value: "github.com/YOUR_USERNAME",
+                    value: "github.com/RoguePi",
                     url: "https://github.com/RoguePi",
                     icon: "fab fa-github"
                 },
