@@ -900,6 +900,37 @@ body::before {
     color: var(--primary);
 }
 
+.preferences-btn {
+    background: var(--primary);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 212, 170, 0.3);
+}
+
+.preferences-btn:hover {
+    background: #00a8ff;
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 212, 170, 0.5);
+}
+
+.privacy-icon {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.privacy-icon {
+    color: var(--dark);
+    font-size: 1.2rem;
+}
+
 .footer-content p {
     color: var(--gray);
 }
