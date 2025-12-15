@@ -64,6 +64,7 @@ function setTestCookies() {
     // Marketing cookies
     document.cookie = "_gcl_au=1.1.1234567890.1234567890; path=/; max-age=7776000";
     document.cookie = "test_marketing=marketing_value; path=/; max-age=86400";
+    document.cookie = "pixels_ai_user=user_123456; path=/; max-age=31536000";
     
     // Functional cookies
     document.cookie = "user_preferences=theme_dark; path=/; max-age=31536000";

@@ -58,6 +58,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         fbq('track', 'PageView');
     </script>
     
+    <!-- Pixels AI Ltd Test Vendor -->
+    <script>
+        (function() {
+            window.pixelsAI = window.pixelsAI || {};
+            window.pixelsAI.track = function(event, data) {
+                console.log('Pixels AI tracking:', event, data);
+                document.cookie = 'pixels_ai_session=' + Date.now() + '; path=/; max-age=3600';
+            };
+            window.pixelsAI.track('pageview', {url: window.location.href});
+        })();
+    </script>
+    
     <!-- Termly Cookie Consent -->
 
 </body>
