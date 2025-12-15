@@ -76,4 +76,6 @@ function setTestCookies() {
 // Set test cookies on page load
 setTimeout(setTestCookies, 2000);
 
+// Let Termly handle TCF natively
+
 // Termly will automatically handle elements with termly-display-preferences class
