@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "npx serve . -p 8080",
     "start": "npx serve . -p 8080",
-    "serve": "npx serve . -p 8080",
-    "build": "echo 'No build needed - static files'"
+    "serve": "npx serve . -p 8080"
   },
   "keywords": ["portfolio", "vue.js", "software-engineer", "support-engineer"],
   "author": "Rogelyn Pizon",
