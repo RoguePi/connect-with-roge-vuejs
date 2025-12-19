@@ -6,7 +6,8 @@ const routes = [
     { path: '/', component: Home },
     { path: '/projects', component: Projects },
     { path: '/resume', component: Resume },
-    { path: '/contact', component: Contact }
+    { path: '/contact', component: Contact },
+    { path: '/privacy', component: Privacy }
 ];
 
 // Create router
@@ -32,7 +33,7 @@ const App = {
                         <p>&copy; 2024 Rogelyn Pizon. Built with Vue.js</p>
                         <div class="legal-links">
                             <a href="https://app.termly.io/policy-viewer/policy.html?policyUUID=9442a5ea-6484-4199-adec-d01e9ff402a5" data-termly-policy="cookie-policy" >Cookie Policy</a>
-                            <a href="https://app.termly.io/policy-viewer/policy.html?policyUUID=cd733249-ef89-4304-befa-4ce0c6b26f42" data-termly-policy="privacy-policy">Privacy Policy</a>
+                            <a name="Footer link" class="framer-SoxLP framer-uowxp framer-1dxns1x framer-v-1dxns1x framer-16ja16o" href="#/privacy" style="width: 100%; opacity: 1;" data-framer-name="Footer Link"><div class="framer-15dbu5v" data-framer-name="Footer Text" data-framer-component-type="RichTextContainer" style="--extracted-r6o4lv: var(--token-98ef78d6-0770-4942-82f9-2c2cb5a2c2ed, rgb(64, 64, 64)); opacity: 0.75; transform: none; will-change: transform;"><p class="framer-text framer-styles-preset-csnn3d" data-styles-preset="k1y7EeG6k" style="--framer-text-color: var(--extracted-r6o4lv, var(--token-98ef78d6-0770-4942-82f9-2c2cb5a2c2ed, rgb(64, 64, 64)));">Privacy Policy</p></div></a>
                             <a href="https://app.termly.io/policy-viewer/policy.html?policyUUID=0dba82c5-dcfd-4b57-88f5-3e3187a9375d" data-termly-policy="terms-of-service">Terms of Service</a>
                             <li><a href="#" class="termly-display-preferences">Consent Preferences</a></li>
                         </div>
