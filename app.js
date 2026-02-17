@@ -35,8 +35,7 @@ const App = {
                             <a href="https://app.termly.io/policy-viewer/policy.html?policyUUID=162b211b-1872-4580-831e-c8abb42cf0a7" data-termly-policy="cookie-policy" >Cookie Policy</a>
                             <a name="Footer link" class="framer-SoxLP framer-uowxp framer-1dxns1x framer-v-1dxns1x framer-16ja16o" href="#/privacy" style="width: 100%; opacity: 1;" data-framer-name="Footer Link"><div class="framer-15dbu5v" data-framer-name="Footer Text" data-framer-component-type="RichTextContainer" style="--extracted-r6o4lv: var(--token-98ef78d6-0770-4942-82f9-2c2cb5a2c2ed, rgb(64, 64, 64)); opacity: 0.75; transform: none; will-change: transform;"><p class="framer-text framer-styles-preset-csnn3d" data-styles-preset="k1y7EeG6k" style="--framer-text-color: var(--extracted-r6o4lv, var(--token-98ef78d6-0770-4942-82f9-2c2cb5a2c2ed, rgb(64, 64, 64)));">Privacy Policy</p></div></a>
                             <a href="https://app.termly.io/policy-viewer/policy.html?policyUUID=0dba82c5-dcfd-4b57-88f5-3e3187a9375d" data-termly-policy="terms-of-service">Terms of Service</a>
-                            <a href="#" class="termly-display-preferences">Consent Preferences</a>
-
+                            
                         </div>
                     </div>
                     <div class="footer-links">
@@ -45,6 +44,11 @@ const App = {
                     </div>
                 </div>
             </footer>
+            <div class="termly-display-preferences" style="height: 45px; width: 45px; position: fixed; bottom: 20px; left: 20px; z-index: 9999; cursor: pointer;">
+                <button style="background-color: transparent; border: none; height: 100%; cursor: pointer;">
+                    <i class="fas fa-cookie-bite" style="font-size: 30px; color: var(--primary);"></i>
+                </button>
+            </div>
         </div>
     `,
     methods: {
