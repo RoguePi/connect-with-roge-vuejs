@@ -34,6 +34,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="views/Resume.js"></script>
     <script src="views/Contact.js"></script>
     <script src="views/Privacy.js"></script>
+    <script src="views/TermlyTest.js"></script>
     <script src="app.js"></script>
     
     <!-- Test Vendor Scripts for TCF Testing -->
@@ -73,6 +74,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </script>
     
     <!-- Termly Cookie Consent -->
+
+    <!-- Dynamic YouTube iframe Script with Termly Placeholder -->
+    <script>
+      function onWidgetLoad() {
+        const iframe = document.createElement("iframe");
+        iframe.src = "https://www.youtube.com/embed/dQw4w9WgXcQ";
+        iframe.width = "560";
+        iframe.height = "315";
+        iframe.style.border = "none";
+        iframe.style.borderRadius = "12px";
+        iframe.title = "YouTube video player";
+        iframe.allowFullscreen = true;
+        iframe.frameBorder = "0";
+        const container = document.getElementById("dynamic-widget-container");
+        if (container) {
+          container.innerHTML = '';
+          container.appendChild(iframe);
+        }
+      }
+    </script>
+
+    <script
+      data-cfasync="false"
+      data-termly-placeholder-id="dynamic-widget-container"
+      data-type="text/javascript"
+      charset="utf-8"
+      onload="onWidgetLoad()"
+      data-src="https://www.youtube.com/iframe_api">
+    </script>
 
 </body>
 </html>

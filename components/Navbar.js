@@ -12,6 +12,7 @@ const Navbar = {
                     <router-link to="/resume" class="nav-link" @click="closeMenu">Resume</router-link>
                     <router-link to="/contact" class="nav-link" @click="closeMenu">Contact</router-link>
                     <router-link to="/privacy" class="nav-link" @click="closeMenu">Privacy</router-link>
+                    <router-link to="/termly-test" class="nav-link" @click="closeMenu">Termly Test</router-link>
                 </div>
                 <div class="nav-toggle" @click="toggleMenu">
                     <span class="bar"></span>

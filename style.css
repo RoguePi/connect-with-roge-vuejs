@@ -1040,3 +1040,70 @@ body::before {
 }
 
 
+
+/* Termly Test Page */
+.termly-test-page {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.test-section {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.test-section h2 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.test-form {
+    max-width: 600px;
+}
+
+.submit-message {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.submit-message.success {
+    background: rgba(0, 212, 170, 0.1);
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.submit-message.error {
+    background: rgba(255, 95, 87, 0.1);
+    color: #ff5f57;
+    border: 1px solid #ff5f57;
+}
+
+.checklist {
+    list-style: none;
+    padding: 0;
+}
+
+.checklist li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+    color: var(--gray);
+}
+
+.instructions {
+    color: var(--gray);
+    line-height: 1.8;
+}
+
+.instructions li {
+    margin-bottom: 0.5rem;
+}

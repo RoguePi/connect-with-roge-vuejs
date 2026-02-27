@@ -7,7 +7,8 @@ const routes = [
     { path: '/projects', component: Projects },
     { path: '/resume', component: Resume },
     { path: '/contact', component: Contact },
-    { path: '/privacy', component: Privacy }
+    { path: '/privacy', component: Privacy },
+    { path: '/termly-test', component: TermlyTest }
 ];
 
 // Create router
