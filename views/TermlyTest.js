@@ -98,60 +98,7 @@ const TermlyTest = {
                 </div>
             </div>
 
-            <div class="test-section">
-                <h2><i class="fas fa-clipboard-check"></i> Accessibility Checklist</h2>
-                <ul class="checklist">
-                    <li>
-                        <input type="checkbox" id="check1" disabled>
-                        <label for="check1">YouTube placeholder is keyboard accessible (Tab to focus)</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="check2" disabled>
-                        <label for="check2">Screen reader announces blocked state</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="check3" disabled>
-                        <label for="check3">No keyboard traps in blocked content</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="check4" disabled>
-                        <label for="check4">Form remains keyboard accessible after consent</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="check5" disabled>
-                        <label for="check5">Focus preserved after consent decision</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="check6" disabled>
-                        <label for="check6">Consent button is keyboard accessible</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="check7" disabled>
-                        <label for="check7">Dynamic iframe placeholder renders correctly</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="check8" disabled>
-                        <label for="check8">Dynamic content loads after consent</label>
-                    </li>
-                </ul>
-            </div>
 
-            <div class="test-section">
-                <h2><i class="fas fa-info-circle"></i> Testing Instructions</h2>
-                <ol class="instructions">
-                    <li>Clear cookies and reload the page</li>
-                    <li>Verify blocked content notice appears in the container</li>
-                    <li>Use Tab key to navigate to the placeholder</li>
-                    <li>Verify screen reader announces blocked state</li>
-                    <li>Click consent preferences button (bottom-left)</li>
-                    <li>Accept marketing/advertising cookies and save</li>
-                    <li><strong>Reload the page</strong> - YouTube video should now load</li>
-                    <li>Navigate to form using keyboard only</li>
-                    <li>Fill and submit form using Tab and Enter keys</li>
-                    <li>Verify no keyboard traps or focus issues</li>
-                </ol>
-            </div>
-        </div>
     `,
     data() {
         return {
